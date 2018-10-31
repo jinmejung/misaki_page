@@ -1,0 +1,251 @@
+/* reset */
+        body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,th,td,form,fieldset,legend,input,label,textarea,select,button {margin:0; padding:0;}
+        body,h1,h2,h3,h4,h5,h6 {font-size:12px;}
+        a {text-decoration:none; color:#333;}
+        img,fieldset {border:none;}
+        ul,ol,li {list-style:none;}
+        strong,em,address {font-style:normal; font-weight:normal;}
+        table {border-collapse:collapse;} 
+        
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+        
+               #misakiWrap{
+            width:100%;
+            height:100%;
+            position: relative;
+            font-family: 'Nanum Gothic', sans-serif;
+            min-width:1300px;
+        }
+        .fl{float:left;}
+        .fr{float:right;}
+        .clearFix:after{
+            content:'';
+            display: block;
+            clear:both;
+        }
+        .misaki_tit{
+            font-family: 'Nanum Gothic', sans-serif; 
+            font-size:50px;
+            font-weight:700;
+            letter-spacing: 5px;
+            color:#a29589;
+            text-align: center;
+            margin:40px 0; 
+        }
+        .misaki_font{
+           font-family: 'Nanum Gothic', sans-serif; 
+            color:#666666;
+            font-size:16px;
+            line-height:180%;
+            letter-spacing: -1px;
+            font-weight:400;
+        }
+        .misaki_font strong{
+            font-size:22px;
+            font-weight:700;
+            color:#a29589;
+            display: inline;
+        }
+        .misaki_name{
+            font-family: 'Nanum Gothic', sans-serif; 
+            font-size: 30px;
+            font-weight:800;
+            line-height: 180%;
+            letter-spacing: -1px;
+            margin-bottom:10px;
+            color:#666;
+        }
+        .misaki_name a{
+            color:#666;
+            display: block;
+        }
+        .misaki_name a span{
+            font-weight:400;
+            border:1px solid #666;
+            padding:0 8px;
+            margin-left:10px;
+        }
+        /* main visual */
+        .main_visual{
+            background:url(http://timemecca.img13.kr/design/kr/designer_brand/misaki_main_visual.jpg) no-repeat center center;
+            background-size:cover;
+            width:100%;
+            height:630px;
+            position: relative;
+        }
+        .main_visual .main_logo{
+            position: absolute;
+            top:50%;
+            left:18%;
+            transform:translateY(-50%)
+        }
+        .main_visual .main_logo img{
+            width:70%;
+        }
+        /* section wrap */
+        .section_wrap{
+            width:65%;
+            margin: 30px auto;
+            position: relative;
+            min-width: 1100px;
+        }
+        .section{
+            width:100%;
+            position:relative;
+            margin-top:100px;
+        }
+        .about_contents{
+            width:100%;
+            position: relative;
+            overflow: hidden;
+        }
+        .about_contents > div{
+            width:50%;
+            box-sizing:border-box;
+        }
+        .about_contents >div:first-child{
+            padding-right:3%;
+        }
+        .about_contents >div:last-child{
+            padding-left:3%;
+        }
+        .about_contents >.img_box img{
+            width:100%;
+            max-width:553px;
+            float: right;
+        }
+        .about_contents >.txt_box{
+            text-align: left;
+            padding: 10% 0;  
+        }
+        
+        .collection_contents{
+            width:100%;
+            position: relative;
+            display: block;
+        }
+        .collection_des{
+            width:100%;
+            position: relative;
+        }
+        
+        .collection_des > div{
+            width:50%;
+            box-sizing: border-box;
+        }
+        .collection_des > div:first-child{
+            padding-right:3%;
+        }
+        .collection_des > div:last-child{
+            padding-left:3%;
+        }
+        .collection_des .img_box img{
+            width:100%;
+            max-width:553px;
+        }
+        .collection_des .txt_box{
+            position: relative;
+           padding-top:30%;
+        }
+        .collection_des .txt_box.fl{
+            text-align: right;
+        }
+        .collection_des .txt_box.fr{
+            text-align: left;
+        }
+        .collection_contents .banner{
+            position: relative;
+            bottom:130px;
+            width:80%;
+        }
+        .collection_contents .banner a{
+            display: block;
+            width:100%;
+        }
+        .collection_contents .banner img{
+            width:100%;
+            max-width:1000px;
+        }
+        
+        .mtra_contents{
+            width:100%;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            margin-bottom:50px;
+        }
+        .mtra_contents > div{
+            box-sizing:border-box;
+        }
+        .mtra_contents > div:first-child{
+            padding-right:3%;
+        }
+        .mtra_contents > div:last-child{
+            padding-left:3%;
+        }
+        .mtra_contents >.img_box{
+            width:40%;
+        }
+        
+        .mtra_contents >.txt_box{
+            padding-top:11%;
+            width:60%;
+        }
+        .mtra_contents >.txt_box.fl{
+            text-align: right;
+        }
+        .mtra_contents >.txt_box.fr{
+            text-align: left;
+        }
+        .mtra_contents  >.img_box img{
+            width:100%;
+            max-width:430px;
+        }
+.misaki_product{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    top: -70px;
+    margin-bottom: 50px;
+}
+.product_list{
+    width: 100%;
+    position: relative;
+} 
+
+.product_list li{
+	position:relative; display:inline-block; float:left; width:25%; 
+        box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.product_list li img {
+   width:100%;
+   margin-bottom:15px;
+}    
+
+.product_list li span {
+	display: -webkit-box;
+    display:block;
+    clear: both;
+    margin: 0 auto;
+    width:180px;
+    line-height: 19px;
+    color:#927a6a;
+    font-size: 13px;
+    font-family: nanumgothic;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    height: 20px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    
+}
+
+.product_list li a:hover {
+	text-decoration:none;
+	opacity:0.8;
+	transition:0.4s ease;
+}
